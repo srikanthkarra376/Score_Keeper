@@ -1,3 +1,47 @@
+
+body {
+  background: #dfdacb;
+} 
+
+
+div {
+  text-align: center;
+  padding-top:100px;
+}
+
+div h1 #p1display,div h1 #p2display {
+  margin: 20px;
+  
+}
+div p {
+  font-size:25px;
+}
+div
+input {
+  font-size:25px;
+  width:120px;
+  font-size:18px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button {
+  background-color: rgb(24, 34, 24);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
 .green {
   color:green;
 }

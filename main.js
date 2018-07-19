@@ -3,7 +3,7 @@ var btn1 = document.getElementById("btn1");
 var btn2 = document.querySelector("#btn2");
 var ResetBtn = document.querySelector("#reset");
 var h1 = document.getElementsByTagName("h1")[0];
-var p1display = document.getElementById("p1display");
+var h1p1display = document.getElementById("p1display");
 var p2display = document.getElementById("p2display");
 var input = document.getElementsByTagName("input")[0];
 var setScore = document.getElementById("setScore");
@@ -20,7 +20,7 @@ btn1.addEventListener("click",function(){
    p1Score++;
     if(winnigScore === p1Score){
        gameOver =true;
-       p1display.classList.add("green");
+       h1.classList.add("green");
     }
     p1display.textContent = p1Score;
   }
@@ -32,7 +32,7 @@ btn2.addEventListener("click",function(){
    p2Score++;
     if(winnigScore === p2Score){
        gameOver = true;
-       p2display.classList.add("green");
+       h1.classList.add("green");
     }
     p2display.textContent = p2Score;
   }
@@ -57,8 +57,8 @@ input.addEventListener("change",function(){
     p2Score = 0;
     p1display.textContent = 0;
     p2display.textContent = 0;
-    p1display.classList.remove("green");
-    p2display.classList.remove("green");
+    h1.classList.remove("green");
+    h1.classList.remove("green");
     gameOver = false;
   
   };
